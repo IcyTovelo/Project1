@@ -1,0 +1,37 @@
+                 Table results 
+       ------------------------------   
+   
+
+  Displacements results mm
+
+   
+  Node             Umm       Vmm   Theta 
+    1                0           0           0
+    2         0.020215    -0.05445    0.030816
+    3                0           0           0
+   
+   
+
+  Node Forces KN
+
+
+  Node             FXKN      FYKN    MKN*m
+    1           1.9809      20.455      15.812
+    3          -16.981    -0.45543    -0.15571
+   
+
+  Internal Forces KN
+
+   
+  Axial ForceKN
+  Element        Node1        Node2 
+    1           13.858       -13.858
+    2           16.981       -16.981
+  Shear ForceKN
+  Element        Node1        Node2 
+    1           15.176        9.8242
+    2          0.45543      -0.45543
+  Bending momentKN*m
+  Element        Node1        Node2 
+    1           15.812        2.4328
+    2           2.4328       0.15571

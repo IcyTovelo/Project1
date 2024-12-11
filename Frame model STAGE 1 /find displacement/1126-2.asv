@@ -1,0 +1,55 @@
+TITLE    = Oubay 10.29
+SUBTITLE = 1.number of elements 2.number of nodes 3.number of material properties 4. number of BC 5.number of node load 6.number of element load 
+   
+3 2 1 2 0 1
+
+LENGTHUNITS = m
+
+AXIALUNITS = KN
+
+NODE_COORDINATES = 3
+
+1     0.0    0.0  
+2     4.0    3.0
+3     9.0    3.0    
+
+ELEMENTS = 2
+1  1 2 1 0.2  0.01  0 0
+1  2 3 1 0.2  0.01  0 0
+
+MATERIAL PROPERTIES = 1
+1 2.1e7 1.2e-5 1.0
+
+NODES_WITH_PRESCRIBED_DISPLACEMENTS = 2
+1   1 1 1  0.000  0.000  0.000   0.000  0.000  0.000
+3   1 1 1  0.000  0.000  0.000   0.000  0.000  0.000
+
+NODES_WITH_POINT_LOAD = 0
+
+ELEMENT_WITH_UDL_LOAD = 1
+1 0 -5.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
